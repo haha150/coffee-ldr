@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 use std::{ffi::c_void, intrinsics, ops::Add};
 
 use goblin::pe::{
